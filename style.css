@@ -1,0 +1,59 @@
+*{
+    background-color: darkslategray;
+    color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    opacity: 0.25;
+}
+.end{
+    margin: 5px;
+    font-size: 0.8rem;
+    z-index: -1;
+    position:fixed;
+    bottom: 0;
+    opacity:0.5;
+}
+#addTodoBtn{
+    background-color: lime;
+    color: darkslategrey;
+    border:2px solid grey;
+}
+h4{
+    background-color: aliceblue;
+    color: darkslategray;
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+label{
+    display:block;
+    line-height: 30px;
+}
+
+.container{
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item{
+    text-align: center  ;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    height: 80px;
+    width: 200px;
+    padding: 2rem;
+    margin: 0.4rem;
+}
+.doneBtn{
+    background-color: blue;
+    height:24px;
+    width:70px;
+    border-radius: 12px;
+    border:1px solid grey;
+}
